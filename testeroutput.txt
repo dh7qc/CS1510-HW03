@@ -1,0 +1,137 @@
+Hello World!!, This is the LinkedList LARGE Tester
+
+
+ ***************** 
+ *  TEST SET #1  * 
+ ***************** 
+Is the list empty? true
+[ ]
+Size of A = 0
+
+TEST : Inserting 10 numbers to A
+[ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, ]
+Size of a = 10
+
+TEST : Clearing A
+[ ]
+Size of A = 0
+
+Test 01 - Done!
+
+
+ ***************** 
+ *  TEST SET #2  * 
+ ***************** 
+
+TEST : Inserting 13 numbers into A
+[ 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 0, ]
+Size of a = 13
+
+TEST : Accessing elements
+First = 24
+Last = 0
+5th = 14
+
+TEST : Clearing A
+[ ]
+Size of A = 0
+
+Test 02 - Done!
+
+
+ ***************** 
+ *  TEST SET #3  * 
+ ***************** 
+
+TEST : Inserting 10 elements into A
+[ j, i, h, g, f, e, d, c, b, a, ]
+Size of a = 10
+
+TEST : Inserting elements at 5 and 7
+[ j, i, h, g, f, w, e, w, d, c, b, a, ]
+
+TEST : Removing elements 4 and 8
+[ j, i, h, g, w, e, w, d, b, a, ]
+
+TEST : Finding e
+e has been found! e
+
+TEST : Clearing A
+[ ]
+Size of A = 0
+
+Test 03 - Done!
+
+
+ ***************** 
+ *  TEST SET #4  * 
+ ***************** 
+
+TEST : Inserting 10 elements into A
+[ 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+Size of A = 10
+
+TEST : Inserting 10 elements into B
+[ 65, 60, 55, 50, 45, 40, 35, 30, 25, 20, ]
+Size of B = 10
+
+TEST : Comparison
+Is A == B ? false
+
+TEST : Operator=
+A = [ 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+C = [ 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+Is A == C ? true
+
+Making sure is a deep copy
+A = [ 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+C = [ 43, 42, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+
+TEST : Copy Constructor
+A = [ 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+D = [ 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+Is A == D ? true
+
+Making sure is a deep copy
+A = [ 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+D = [ 222, 111, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, ]
+
+TEST : Append B into A
+[ 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, 65, 60, 55, 50, 45, 40, 35, 30, 25, 20, ]
+
+TEST : Reversing A
+[ 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, ]
+
+TEST : Clearing A
+[ ]
+Size of A = 0
+
+Test 04 - Done!
+
+
+ ***************** 
+ *  TEST SET #5  * 
+ ***************** 
+
+TEST : Panics on an empty list
+[ ]
+Size of A = 0
+!!-- ERROR : PANIC in LINKEDLIST.getFirstPtr() - empty list
+First = 0
+!!-- ERROR : PANIC in LINKEDLIST.getLastPtr() - empty list
+Last = 0
+
+TEST : Inserting 10 elements into A
+[ 99, 88, 77, 66, 55, 44, 33, 22, 11, 0, ]
+Size of A = 10
+
+TEST : Panic on Invalid Index
+!!-- ERROR : PANIC in LINKEDLIST.getAtPtr() - invalid index
+0
+
+TEST : Clearing A
+[ ]
+Size of A = 0
+
+Test 05 - Done!
+LARGE Done!
